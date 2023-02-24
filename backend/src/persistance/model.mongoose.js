@@ -11,7 +11,6 @@ const dataSchema = new mongoose.Schema({
         default: new Date().toLocaleString()
     }
 });
-
 const DataModel = mongoose.model('information', dataSchema);
 
 export default DataModel;

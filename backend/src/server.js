@@ -5,7 +5,6 @@ import apiRoutes from './router/apiRoutes.js';
 import './persistance/db.connection.js';
 
 const app = express();
-
 app.use(express.json());
 
 app.use('/', apiRoutes);
