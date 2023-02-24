@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.use('/', apiRoutes);
 
-const port = process.env.PORT || 8080;
+const port = 8080;
 
 app.listen(port,
     () => {
